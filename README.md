@@ -1,43 +1,62 @@
-# Astro Starter Kit: Minimal
+# halia.spot
 
-```sh
-bun create astro@latest -- --template minimal
+A blog built with Astro following the Haxmas Day 11 workshop from Hack Club.
+
+## Getting Started
+
+Install dependencies:
+```bash
+bun i
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+Start the development server:
+```bash
+bun dev
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Visit http://localhost:4321 to see your blog!
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Project Structure
 
-Any static assets, like images, can be placed in the `public/` directory.
+```
+src
+├── assets
+├── components
+│   └── FormattedDate.astro
+├── content
+│   └── posts
+│       └── hello-world.md
+├── layouts
+│   └── BlogPost.astro
+├── pages
+│   ├── posts
+│   │   ├── [...slug].astro
+│   │   └── index.astro
+│   └── index.astro
+├── styles
+│   ├── global.css
+│   └── post.css
+└── content.config.ts
+```
 
-## 🧞 Commands
+## Features
 
-All commands are run from the root of the project, from a terminal:
+- ✅ Content collections for blog posts
+- ✅ Markdown blog posts with frontmatter
+- ✅ Homepage with link to posts
+- ✅ Posts listing page
+- ✅ Individual post pages
+- ✅ Formatted dates component
+- ✅ Styled with CSS
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+## Building
 
-## 👀 Want to learn more?
+Build for production:
+```bash
+bun run build
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Preview the production build:
+```bash
+bun run preview
+```

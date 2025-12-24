@@ -1,0 +1,137 @@
+.post-page {
+    padding: 2rem 0;
+}
+
+.post {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.post header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+}
+
+.post .description {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 1.5rem;
+}
+
+.post .hero {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.post .date {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.post .body {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.post .body h1,
+.post .body h2,
+.post .body h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.post .body h1 {
+    font-size: 2rem;
+}
+
+.post .body h2 {
+    font-size: 1.5rem;
+}
+
+.post .body h3 {
+    font-size: 1.25rem;
+}
+
+.post .body p {
+    margin-bottom: 1.5rem;
+}
+
+.post .body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin: 2rem 0;
+}
+
+.post .body strong {
+    font-weight: 600;
+}
+
+.post .body em {
+    font-style: italic;
+}
+
+.post .body del {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.post .body a {
+    color: var(--accent-color);
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.post .body a:hover {
+    color: var(--accent-secondary);
+}
+
+.post .body ul,
+.post .body ol {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.post .body li {
+    margin-bottom: 0.5rem;
+}
+
+.post .body blockquote {
+    border-left: 4px solid var(--accent-secondary);
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+    color: #ccc;
+    font-style: italic;
+}
+
+.post .body code {
+    background-color: var(--card-bg);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+.post .body pre {
+    background-color: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 2rem 0;
+}
+
+.post .body pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
