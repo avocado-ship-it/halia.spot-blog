@@ -1,6 +1,4 @@
-# halia.spot
-
-A blog built with Astro following the Haxmas Day 11 workshop from Hack Club.
+# haxmas day 11
 
 ## Getting Started
 
@@ -39,15 +37,6 @@ src
 └── content.config.ts
 ```
 
-## Features
-
-- ✅ Content collections for blog posts
-- ✅ Markdown blog posts with frontmatter
-- ✅ Homepage with link to posts
-- ✅ Posts listing page
-- ✅ Individual post pages
-- ✅ Formatted dates component
-- ✅ Styled with CSS
 
 ## Building
 
